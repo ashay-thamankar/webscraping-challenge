@@ -1,0 +1,86 @@
+{
+    "Maruti Fronx": {
+        "Overview": {
+            "Price Range": "Rs. 7.52 to 13.04 Lakh",
+            "Launch Date": "24 April, 2023",
+            "Varients": "Sigma, Delta, Delta+, Zeta, and Alpha",
+            "Key Selling Points": [
+                "The coupe SUV appearance makes it look refreshingly different.",
+                "The powertrains have a strong output that aids drivability considerably.",
+                "Top-of-the-line version offers all the new-age features one would expect.",
+                "This coupe SUV is comfortable owing to how road irregularities are soaked.",
+                "Backed by Maruti Suzuki's exhaustive and robust dealer/service network."
+            ]
+        },
+        "Varients": [
+            {
+                "Name": "Fronx Sigma 1.2L MT",
+                "Details": {
+                    "Engine": "1197 cc, Petrol, Manual",
+                    "Mileage": " 21.79 kmpl",
+                    "Power": " 89 bhp",
+                    "Price": "Rs. 7.51 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Delta 1.2L MT",
+                "Details": {
+                    "Engine": "1197 cc, Petrol, Manual",
+                    "Mileage": " 21.79 kmpl",
+                    "Power": " 89 bhp",
+                    "Price": "Rs. 8.37 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Sigma 1.2 CNG",
+                "Details": {
+                    "Engine": "1197 cc, CNG, Manual",
+                    "Mileage": " 28.51 km/kg",
+                    "Power": " 76 bhp",
+                    "Price": "Rs. 8.46 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Delta Plus 1.2L MT",
+                "Details": {
+                    "Engine": "1197 cc, Petrol, Manual",
+                    "Mileage": " 21.79 kmpl",
+                    "Power": " 89 bhp",
+                    "Price": "Show price in my cityGet Offers"
+                }
+            }
+        ],
+        "Specifications": {
+            "Mileage": "20.01 to 28.51 kmpl",
+            "Engine": "1197 cc , 998 cc",
+            "Fuel Type": "Petrol , CNG",
+            "Transmission": "Manual , Automatic",
+            "Seating Capacity": "5 Seater"
+        },
+        "Key Features": [
+            "Side and curtain airbags",
+            "All 3-point seat belts",
+            "Auto-dimming inside rearview mirror",
+            "Electronic Stability Program",
+            "Hill hold assist"
+        ],
+        "Summary": {
+            "Price": "Rs. 7.52 - 13.04 Lakh",
+            "Features": "On the outside, the Fronx features LED headlamps, LED tail lights, 16-inch dual-tone alloy wheels, contrast-coloured faux skid plates, and silver roof rails. The model, which has a seating capacity of five occupants, is offered in nine colours, namely Arctic White, Grandeur Grey, Earthen Brown, Splendid Silver, Opulent Red, Earthen Brown with Bluish Black roof, Opulent Red with Bluish Black roof, and Splendid Silver with a Bluish Black roof.\nInside, the model receives features such as six airbags, a 360-degree camera, HUD, a nine-inch SmartPlay Pro+ touchscreen infotainment system, Apple CarPlay and Android Auto connectivity, cruise control, UV cut glass, rear AC vents, and a wireless charger."
+        },
+        "Pros and Cons": {
+            "Pros": [
+                "The coupe SUV appearance makes it look refreshingly different.",
+                "The powertrains have a strong output that aids drivability considerably.",
+                "Top-of-the-line version offers all the new-age features one would expect.",
+                "This coupe SUV is comfortable owing to how road irregularities are soaked.",
+                "Backed by Maruti Suzuki's exhaustive and robust dealer/service network."
+            ],
+            "Cons": [
+                "The driving position is not as high as regular SUVs offer.",
+                "Rear headroom can be restrictive for taller occupants.",
+                "There's some turbo lag below 2,500rpm in the 1.0-litre engine."
+            ]
+        }
+    }
+}
