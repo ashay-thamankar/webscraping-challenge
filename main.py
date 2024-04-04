@@ -136,6 +136,16 @@ cons_l = [con.text for con in cons_list][0].split('\n')
 pro_con_dict = {'Pros': pro_l, 'Cons': cons_l}
 dict_1['Pros and Cons'] = pro_con_dict
 
+# Scraping the review with its description
+review_list_ele = driver.find_elements(by=By.XPATH, value='/html/body/div[2]/div[2]/div[1]/div[5]/div[1]/div[1]/div[12]/div[2]/div/section/div/div[1]/ul')
+
+review = [review.text for review in review_list_ele]
+review = [rev.split('\n') for rev in review][0]
+
+review_list = [{'title': review[n], 'description': review[n+1] } for n in range(len(review)) if n % 6 ==0]
+
+dict_1['Reviews'] = review_list
+
 # Adding all the scraped data into a dictionary
 final_dict  = {f'{car_name}': dict_1}
 
