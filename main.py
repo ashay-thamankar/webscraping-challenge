@@ -4,18 +4,22 @@
 import time
 from selenium import webdriver
 from selenium.common import ElementClickInterceptedException, StaleElementReferenceException, \
-    ElementNotInteractableException
+    ElementNotInteractableException, NoSuchElementException
 from selenium.webdriver.common.by import By
 import json
 
 car_url = 'https://www.carwale.com/maruti-suzuki-cars/fronx/'
+# car_url = 'https://www.carwale.com/tata-cars/punch-ev/'
 driver = webdriver.Chrome()
 
 driver.get(car_url)
 
 # Name of the car
 car_name = driver.find_element(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[2]/div/div[1]/div/div/h1')
+# car_name = driver.find_element(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[2]/div/div[1]/div/h1')
+# car_name = driver.find_element(By.CSS_SELECTOR, '.o-cKuOoN')
 car_name = car_name.text
+print(car_name)
 
 # Adding delay if there is slow internet connection
 time.sleep(1)
@@ -28,19 +32,22 @@ time.sleep(2)
 # Scraping price range
 price_range = driver.find_element(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[4]/div[2]/div[2]/div[1]/span')
 price_range = price_range.text.replace('-', 'to')
-
+print(price_range)
 time.sleep(2)
 
 # Clicking on more named button for crossdown
 driver.find_element(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[3]/div[1]/div/ul[1]/li[4]/div/span').click()
 time.sleep(2)
-driver.find_element(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[5]/div[1]/div[1]/div[4]/div/section/div/div/div/div[2]').click()
+try:
+    driver.find_element(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[5]/div[1]/div[1]/div[4]/div/section/div/div/div/div[2]').click()
+except NoSuchElementException:
+    pass
 time.sleep(2)
 launch_date = driver.find_element(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[5]/div[1]/div[1]/div[4]/div/section/div/div/div/div[1]/div/div[2]/p[2]').text.split('on')[-1].strip().split('.')[0]
 
 time.sleep(2)
 
-# Scraping varient data
+# Scraping varient data 
 varient = driver.find_element(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[5]/div[1]/div[1]/div[4]/div/section/div/div/div/div[1]/div/div[2]/p[4]').text.split('-')[-1].split('.')[0].split('variants –')[-1].strip()
 
 pro_p = driver.find_elements(by=By.XPATH, value='//*[@id="root"]/div[2]/div[1]/div[5]/div[1]/div[1]/div[7]/div/section/div[2]/div[1]/ul/li[1]/div/div/ul')
@@ -56,7 +63,7 @@ overview_dict['Key Selling Points'] = pro_p
 # Adding into a main dictionary
 dict_1 = {}
 dict_1['Overview'] = overview_dict
-
+print(dict_1)
 varients_list = []
 
 details = {}

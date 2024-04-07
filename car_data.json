@@ -46,6 +46,96 @@
                     "Engine": "1197 cc, Petrol, Manual",
                     "Mileage": " 21.79 kmpl",
                     "Power": " 89 bhp",
+                    "Price": "Rs. 8.77 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Delta 1.2L AGS",
+                "Details": {
+                    "Engine": "1197 cc, Petrol, Automatic (AMT)",
+                    "Mileage": " 22.89 kmpl",
+                    "Power": " 89 bhp",
+                    "Price": "Rs. 8.87 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Delta Plus 1.2L AGS",
+                "Details": {
+                    "Engine": "1197 cc, Petrol, Automatic (AMT)",
+                    "Mileage": " 22.89 kmpl",
+                    "Power": " 89 bhp",
+                    "Price": "Rs. 9.27 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Delta 1.2 CNG",
+                "Details": {
+                    "Engine": "1197 cc, CNG, Manual",
+                    "Mileage": " 28.51 km/kg",
+                    "Power": " 76 bhp",
+                    "Price": "Rs. 9.32 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Delta Plus 1.0 Turbo MT",
+                "Details": {
+                    "Engine": "998 cc, Petrol, Manual",
+                    "Mileage": " 21.5 kmpl",
+                    "Power": " 99 bhp",
+                    "Price": "Rs. 9.73 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Zeta 1.0L Turbo MT",
+                "Details": {
+                    "Engine": "998 cc, Petrol, Manual",
+                    "Mileage": " 21.5 kmpl",
+                    "Power": " 99 bhp",
+                    "Price": "Rs. 10.55 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Alpha 1.0L Turbo MT",
+                "Details": {
+                    "Engine": "998 cc, Petrol, Manual",
+                    "Mileage": " 21.5 kmpl",
+                    "Power": " 99 bhp",
+                    "Price": "Rs. 11.47 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Alpha 1.0L Turbo MT Dual Tone",
+                "Details": {
+                    "Engine": "998 cc, Petrol, Manual",
+                    "Mileage": " 21.5 kmpl",
+                    "Power": " 99 bhp",
+                    "Price": "Rs. 11.64 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Zeta 1.0L Turbo 6 AT",
+                "Details": {
+                    "Engine": "998 cc, Petrol, Automatic (TC)",
+                    "Mileage": " 20.01 kmpl",
+                    "Power": " 99 bhp",
+                    "Price": "Rs. 11.95 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Alpha 1.0L Turbo 6 AT",
+                "Details": {
+                    "Engine": "998 cc, Petrol, Automatic (TC)",
+                    "Mileage": " 20.01 kmpl",
+                    "Power": " 99 bhp",
+                    "Price": "Rs. 12.87 Lakh"
+                }
+            },
+            {
+                "Name": "Fronx Alpha 1.0L Turbo 6 AT Dual Tone",
+                "Details": {
+                    "Engine": "998 cc, Petrol, Automatic (TC)",
+                    "Mileage": " 20.01 kmpl",
+                    "Power": " 99 bhp",
                     "Price": "Show price in my cityGet Offers"
                 }
             }
@@ -84,6 +174,10 @@
         },
         "Reviews": [
             {
+                "title": "A muscular car",
+                "description": "The car is really outstanding in its line as it has the muscular look and outstand from other cars in this segment. Really loved the car. Great driving experience...no hiccups and at last the comfort is superb."
+            },
+            {
                 "title": "\"Embrace the Future of Driving with Maruti Suzuki Fronx: A Revolution on Wheels!\"",
                 "description": "Review: Buckle up and prepare for a journey into the future with the sensational Maruti Suzuki Fronx! As a devoted automotive enthusiast, I was left spellbound by the seamless fusion of cutting-edge technology, unparalleled performance, and captivating design embodied in this marvel of engineering. From the moment you lay eyes on the Fronx, its sleek and futuristic exterior commands attention, effortlessly turning heads and igniting curiosity. Its aerodynamic silhouette exudes confidence, hinting at the incredible power and agility that lie beneath the surface. Stepping inside, you're greeted by a meticulously crafted interior that exudes sophistication and comfort in equal measure. The spacious cabin provides ample room for passengers to stretch out and relax, while the premium materials and ergonomic design elements elevate the driving experience to new heights of luxury. But the true magic of the Fronx reveals itself when you hit the road. Powered by an innovative hybrid engine, this powerhouse delivers a driving experience like no other. With lightning-fast acceleration and whisper-quiet operation, every journey becomes a thrilling adventure, whether you're navigating city streets or conquering winding mountain roads. But it's not just about performance\u2014the Fronx is also a pioneer in safety and connectivity. Equipped with state-of-the-art driver-assist features and cutting-edge infotainment technology, it ensures that you stay connected, informed, and protected on every mile of your journey. In conclusion, the Maruti Suzuki Fronx is more than just a car\u2014it's a testament to the endless possibilities of automotive innovation. With its unparalleled blend of style, performance, and technology, it's poised to redefine the way we think about driving. So why wait? Embrace the future today with the extraordinary Maruti Suzuki Fronx!"
             },
@@ -98,10 +192,6 @@
             {
                 "title": "Great mileage, looks, performance and strong body",
                 "description": "Everything is excellent style ,looks, performance ,body ,ground clearance, engine performance also I have got maximum 25.1 km/l mileage but suspension and headroom I don't like of this car."
-            },
-            {
-                "title": "Not upto the mark",
-                "description": "Here are some amazing features of the car that you might love. Firstly, it looks wonderful and is sure to turn heads. Secondly, it is incredibly comfortable, making long drives even more enjoyable. Lastly, the boot space is big enough to fit all your essentials for a fun road trip. While there are some areas that could be improved, such as the torque not being up to the mark and the car being less powerful, it still has a lot to offer. So, let's hit the road and enjoy the ride!"
             }
         ]
     }
