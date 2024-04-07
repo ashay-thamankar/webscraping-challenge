@@ -1,4 +1,4 @@
-# CarWale Scraper
+# Scraping of Car data from carwale.com
 
 This project involves scraping data for any specific car from [CarWale](https://www.carwale.com) using Google Chrome and Selenium WebDriver. The scraped data includes various aspects of the car, such as its name, overview, variants, specifications, key features, summary, pros and cons, and user reviews. The final output is stored in a JSON file named `any_car_data.json`. 
 
@@ -19,7 +19,7 @@ pip install selenium
 2. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/ashay-thamankar/carwale-scraper.git
+git clone https://github.com/ashay-thamankar/webscraping-challenge.git
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ git clone https://github.com/ashay-thamankar/carwale-scraper.git
 1. Navigate to the project directory:
 
 ```bash
-cd carwale-scraper
+cd webscraping-challenge
 ```
 
 2. Run the script:
