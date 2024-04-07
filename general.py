@@ -33,6 +33,9 @@ car_name = car_name.text
 price_range = driver.find_element(By.CSS_SELECTOR, 'span.o-Hyyko')
 price_range = price_range.text.replace('-', 'to')
 
+time.sleep(2)
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight/5);")
+
 time.sleep(3)
 
 # click on read more to expand the drop down and scrape the launch date
@@ -71,7 +74,9 @@ inter_dict['Overview'] = {
     'Launch Date': launch_date,
     'Varients': varients
 }
+time.sleep(2)
 
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight/9);")
 # To get the diferent car varients
 time.sleep(2)
 try:
@@ -115,7 +120,7 @@ for var in varient_list:
                         'Price': price_var.text
             }
         }
-        print(var_temp_dict)
+  
         var_out_list.append(var_temp_dict)
     except NoSuchElementException:
         pass
