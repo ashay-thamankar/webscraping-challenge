@@ -2,6 +2,8 @@
 
 This project involves scraping data for any specific car from [CarWale](https://www.carwale.com) using Google Chrome and Selenium WebDriver. The scraped data includes various aspects of the car, such as its name, overview, variants, specifications, key features, summary, pros and cons, and user reviews. The final output is stored in a JSON file named `any_car_data.json`. 
 
+This project is given by a startup [warehows](https://www.warehows.io/)
+
 ## Purpose
 
 The scraped data can be utilized for the analysis of a specific car model, including its features, specifications, and user reviews. This analysis can help in understanding user satisfaction and preferences for different car models.
